@@ -1,0 +1,38 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+/* Horizontal Rules */
+hr { 
+    border: none;
+    /* Height augmente la taille mais le fond reste blanc */
+    background-color: black;
+    height: 2px;
+}
+
+.section_title {
+    /* Exprime la couleur selon la  luminosité, chroma (quantité de couleur), hue (l'angle de la couleur*/
+    color: oklch(0.627 0.194 169.214);
+}
+
+.title {
+    color: #3582CA;
+    font-size: large;
+}
+
+.name{
+    font-size: xx-large;
+}
+
+ul {
+    /* Rapproche les point vers la droite en modifiant manuellement l'espacement */
+    padding-left: 20px;
+    /* Enleve le point des listes */
+    /* list-style-type: none; */
+}
